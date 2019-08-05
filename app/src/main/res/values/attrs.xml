@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 条形单选控件自定义属性-->
+    <declare-styleable name="LineBarCheckView">
+        <!-- 文字和背景的颜色是互斥的，有选中和未选中两种-->
+        <attr name="text_bg_color_left_normal" format="reference"></attr>
+        <attr name="text_bg_color_right_normal" format="reference"></attr>
+        <attr name="text_bg_color_left_press" format="reference"></attr>
+        <attr name="text_bg_color_right_press" format="reference"></attr>
+        <attr name="text_color_normal" format="color"></attr>
+        <attr name="text_color_press" format="color"></attr>
+        <attr name="text_size_line_bar" format="dimension"></attr>
+        <attr name="text_left_line_bar" format="string"></attr>
+        <attr name="text_right_line_bar" format="string"></attr>
+    </declare-styleable>
+</resources>
